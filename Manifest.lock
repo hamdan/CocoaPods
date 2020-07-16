@@ -1,0 +1,312 @@
+PODS:
+  - Airship (13.5.1):
+    - Airship/Automation (= 13.5.1)
+    - Airship/Core (= 13.5.1)
+    - Airship/ExtendedActions (= 13.5.1)
+    - Airship/MessageCenter (= 13.5.1)
+  - Airship/Automation (13.5.1):
+    - Airship/Core
+  - Airship/Core (13.5.1)
+  - Airship/ExtendedActions (13.5.1):
+    - Airship/Core
+  - Airship/MessageCenter (13.5.1):
+    - Airship/Core
+  - Analytics (3.7.0)
+  - AppAuth (1.4.0):
+    - AppAuth/Core (= 1.4.0)
+    - AppAuth/ExternalUserAgent (= 1.4.0)
+  - AppAuth/Core (1.4.0)
+  - AppAuth/ExternalUserAgent (1.4.0)
+  - Apptimize (3.3.7)
+  - AWSCore (2.14.2)
+  - AWSS3 (2.14.2):
+    - AWSCore (= 2.14.2)
+  - Branch (0.34.0)
+  - CameraManager (5.1.3)
+  - Charts (3.3.0):
+    - Charts/Core (= 3.3.0)
+  - Charts/Core (3.3.0)
+  - CocoaLumberjack (3.6.1):
+    - CocoaLumberjack/Core (= 3.6.1)
+  - CocoaLumberjack/Core (3.6.1)
+  - Differentiator (4.0.1)
+  - Firebase/Analytics (6.28.0):
+    - Firebase/Core
+  - Firebase/Core (6.28.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 6.6.2)
+  - Firebase/CoreOnly (6.28.0):
+    - FirebaseCore (= 6.9.0)
+  - Firebase/Crashlytics (6.28.0):
+    - Firebase/CoreOnly
+    - FirebaseCrashlytics (~> 4.3.0)
+  - FirebaseAnalytics (6.6.2):
+    - FirebaseCore (~> 6.8)
+    - FirebaseInstallations (~> 1.4)
+    - GoogleAppMeasurement (= 6.6.2)
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
+    - GoogleUtilities/MethodSwizzler (~> 6.0)
+    - GoogleUtilities/Network (~> 6.0)
+    - "GoogleUtilities/NSData+zlib (~> 6.0)"
+    - nanopb (~> 1.30905.0)
+  - FirebaseCore (6.9.0):
+    - FirebaseCoreDiagnostics (~> 1.3)
+    - GoogleUtilities/Environment (~> 6.7)
+    - GoogleUtilities/Logger (~> 6.7)
+  - FirebaseCoreDiagnostics (1.5.0):
+    - GoogleDataTransport (~> 7.0)
+    - GoogleUtilities/Environment (~> 6.7)
+    - GoogleUtilities/Logger (~> 6.7)
+    - nanopb (~> 1.30905.0)
+  - FirebaseCrashlytics (4.3.0):
+    - FirebaseCore (~> 6.8)
+    - FirebaseInstallations (~> 1.1)
+    - GoogleDataTransport (~> 7.0)
+    - nanopb (~> 1.30905.0)
+    - PromisesObjC (~> 1.2)
+  - FirebaseInstallations (1.5.0):
+    - FirebaseCore (~> 6.8)
+    - GoogleUtilities/Environment (~> 6.7)
+    - GoogleUtilities/UserDefaults (~> 6.7)
+    - PromisesObjC (~> 1.2)
+  - GoogleAPIClientForREST/Core (1.4.2):
+    - GTMSessionFetcher (>= 1.1.7)
+  - GoogleAPIClientForREST/Drive (1.4.2):
+    - GoogleAPIClientForREST/Core
+    - GTMSessionFetcher (>= 1.1.7)
+  - GoogleAppMeasurement (6.6.2):
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
+    - GoogleUtilities/MethodSwizzler (~> 6.0)
+    - GoogleUtilities/Network (~> 6.0)
+    - "GoogleUtilities/NSData+zlib (~> 6.0)"
+    - nanopb (~> 1.30905.0)
+  - GoogleDataTransport (7.0.0):
+    - nanopb (~> 1.30905.0)
+  - GoogleSignIn (5.0.2):
+    - AppAuth (~> 1.2)
+    - GTMAppAuth (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleUtilities/AppDelegateSwizzler (6.7.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (6.7.0):
+    - PromisesObjC (~> 1.2)
+  - GoogleUtilities/Logger (6.7.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (6.7.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (6.7.0):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (6.7.0)"
+  - GoogleUtilities/Reachability (6.7.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (6.7.0):
+    - GoogleUtilities/Logger
+  - GTMAppAuth (1.0.0):
+    - AppAuth/Core (~> 1.0)
+    - GTMSessionFetcher (~> 1.1)
+  - GTMSessionFetcher (1.4.0):
+    - GTMSessionFetcher/Full (= 1.4.0)
+  - GTMSessionFetcher/Core (1.4.0)
+  - GTMSessionFetcher/Full (1.4.0):
+    - GTMSessionFetcher/Core (= 1.4.0)
+  - Hero (1.5.0)
+  - Intercom (7.1.1)
+  - IQKeyboardManagerSwift (6.5.5)
+  - lottie-ios (3.1.8)
+  - nanopb (1.30905.0):
+    - nanopb/decode (= 1.30905.0)
+    - nanopb/encode (= 1.30905.0)
+  - nanopb/decode (1.30905.0)
+  - nanopb/encode (1.30905.0)
+  - ObjcExceptionBridging (1.0.1):
+    - ObjcExceptionBridging/ObjcExceptionBridging (= 1.0.1)
+  - ObjcExceptionBridging/ObjcExceptionBridging (1.0.1)
+  - PromiseKit (6.13.1):
+    - PromiseKit/CorePromise (= 6.13.1)
+    - PromiseKit/Foundation (= 6.13.1)
+    - PromiseKit/UIKit (= 6.13.1)
+  - PromiseKit/CorePromise (6.13.1)
+  - PromiseKit/Foundation (6.13.1):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.13.1):
+    - PromiseKit/CorePromise
+  - PromisesObjC (1.2.9)
+  - Realm (5.3.0):
+    - Realm/Headers (= 5.3.0)
+  - Realm/Headers (5.3.0)
+  - RealmSwift (5.3.0):
+    - Realm (= 5.3.0)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxDataSources (4.0.1):
+    - Differentiator (~> 4.0)
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - RxGesture (3.0.2):
+    - RxCocoa (~> 5.1)
+    - RxSwift (~> 5.1)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+  - SDWebImage (5.8.3):
+    - SDWebImage/Core (= 5.8.3)
+  - SDWebImage/Core (5.8.3)
+  - Siren (5.4.4)
+  - SnapKit (5.0.1)
+  - SVGKit (2.1.0):
+    - CocoaLumberjack (~> 3.0)
+  - SZTextView (1.3.0)
+  - TwilioVideo (3.5.0)
+  - UIScrollView-InfiniteScroll (1.1.0)
+  - XCGLogger (7.0.1):
+    - XCGLogger/Core (= 7.0.1)
+  - XCGLogger/Core (7.0.1):
+    - ObjcExceptionBridging
+
+DEPENDENCIES:
+  - Airship
+  - Analytics (= 3.7.0)
+  - Apptimize
+  - AWSS3
+  - Branch
+  - CameraManager
+  - Charts (~> 3.3.0)
+  - Firebase/Analytics
+  - Firebase/Crashlytics
+  - GoogleAPIClientForREST/Drive
+  - GoogleSignIn
+  - Hero
+  - Intercom
+  - IQKeyboardManagerSwift
+  - lottie-ios
+  - PromiseKit (~> 6.8)
+  - RealmSwift
+  - RxCocoa (~> 5)
+  - RxDataSources (~> 4.0)
+  - RxGesture (~> 3.0)
+  - RxSwift (~> 5)
+  - SDWebImage (~> 5.0)
+  - Siren
+  - SnapKit (~> 5.0.0)
+  - SVGKit (from `https://github.com/SVGKit/SVGKit.git`, branch `3.x`)
+  - SZTextView
+  - TwilioVideo (~> 3.3)
+  - UIScrollView-InfiniteScroll (~> 1.1.0)
+  - XCGLogger (~> 7.0.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Airship
+    - Analytics
+    - AppAuth
+    - Apptimize
+    - AWSCore
+    - AWSS3
+    - Branch
+    - CameraManager
+    - Charts
+    - CocoaLumberjack
+    - Differentiator
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - FirebaseCrashlytics
+    - FirebaseInstallations
+    - GoogleAPIClientForREST
+    - GoogleAppMeasurement
+    - GoogleDataTransport
+    - GoogleSignIn
+    - GoogleUtilities
+    - GTMAppAuth
+    - GTMSessionFetcher
+    - Hero
+    - Intercom
+    - IQKeyboardManagerSwift
+    - lottie-ios
+    - nanopb
+    - ObjcExceptionBridging
+    - PromiseKit
+    - PromisesObjC
+    - Realm
+    - RealmSwift
+    - RxCocoa
+    - RxDataSources
+    - RxGesture
+    - RxRelay
+    - RxSwift
+    - SDWebImage
+    - Siren
+    - SnapKit
+    - SZTextView
+    - TwilioVideo
+    - UIScrollView-InfiniteScroll
+    - XCGLogger
+
+EXTERNAL SOURCES:
+  SVGKit:
+    :branch: 3.x
+    :git: https://github.com/SVGKit/SVGKit.git
+
+CHECKOUT OPTIONS:
+  SVGKit:
+    :commit: 2a4068f0ea546dcd82f7e4dd9aa9026c0a0a2235
+    :git: https://github.com/SVGKit/SVGKit.git
+
+SPEC CHECKSUMS:
+  Airship: 644bb975feaf98f439462350fcbc2c6b68a86bf0
+  Analytics: 77fd5fb102a4a5eedafa2c2b0245ceb7b7c15e45
+  AppAuth: 31bcec809a638d7bd2f86ea8a52bd45f6e81e7c7
+  Apptimize: 16579eca5a12325f39b5dc07368b6c3ce2206d3a
+  AWSCore: 80da498ab0979e77dbdc7690a61ceaaccfb0499a
+  AWSS3: 2ea579ed91fb01a187f7d8d827e3936da488531e
+  Branch: 446aeb832102f56f04edf5fa7cb0a752dc392ca7
+  CameraManager: 73936a52093081ba5e44914e8120ab511360f5d4
+  Charts: e0dd4cd8f257bccf98407b58183ddca8e8d5b578
+  CocoaLumberjack: b17ae15142558d08bbacf69775fa10c4abbebcc9
+  Differentiator: 886080237d9f87f322641dedbc5be257061b0602
+  Firebase: dc81c6c4701aa965eda3b1433d1b993e3f291e7b
+  FirebaseAnalytics: 5fa308e1b13f838d0f6dc74719ac2a72e8c5afc4
+  FirebaseCore: aab9d4dd2d819197a0157166cb065ae88ff612b5
+  FirebaseCoreDiagnostics: 7535fe695737f8c5b350584292a70b7f8ff0357b
+  FirebaseCrashlytics: f6ae039fdaf07980425f2ae9f49131fc94009c58
+  FirebaseInstallations: 3c520c951305cbf9ca54eb891ff9e6d1fd384881
+  GoogleAPIClientForREST: 9f49df9fac7867b459187e687fed3066b2be049a
+  GoogleAppMeasurement: 8cd1f289d60e629cf16ab03363b9e89c776b9651
+  GoogleDataTransport: 8a40cb194ad242b6f6dfe72c14fe40fc67c4dcd7
+  GoogleSignIn: 7137d297ddc022a7e0aa4619c86d72c909fa7213
+  GoogleUtilities: 23ad5d79794b8ded1954466d5be6f8f694d3f7f3
+  GTMAppAuth: 4deac854479704f348309e7b66189e604cf5e01e
+  GTMSessionFetcher: 6f5c8abbab8a9bce4bb3f057e317728ec6182b10
+  Hero: b7385b75e7259da62f4f85462f59a5082d66b058
+  Intercom: 4c1d90a1eacd7068943cb16a6506fc6ef326144b
+  IQKeyboardManagerSwift: 0fb93310284665245591f50f7a5e38de615960b7
+  lottie-ios: 48fac6be217c76937e36e340e2d09cf7b10b7f5f
+  nanopb: c43f40fadfe79e8b8db116583945847910cbabc9
+  ObjcExceptionBridging: c30e00eb3700467e695faeea30e26e18bd445001
+  PromiseKit: 28fda91c973cc377875d8c0ea4f973013c05b6db
+  PromisesObjC: b48e0338dbbac2207e611750777895f7a5811b75
+  Realm: 81b533e4d02518e3e36a702d43a716b48bf89ed6
+  RealmSwift: d8954b0c203d532cfa8412ab18e2da01eb071aa4
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxDataSources: efee07fa4de48477eca0a4611e6d11e2da9c1114
+  RxGesture: d6bd7447ca3a596c7a9702a6a2b6a2bb5d8bae54
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  SDWebImage: 112503ec94a5a2a41869503844a15e8d8f1ead5c
+  Siren: 43ebf58c6593ed947a951ab6a03bdc413ffa371a
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SVGKit: c6fe3403caafbd20d4ad5a5cc7dcae6115b3c6e1
+  SZTextView: 094dc6acc9beec537685c545d6e3e0d4975174e1
+  TwilioVideo: 6758bbec5a6d1838caba8a917f5c7545a11652c3
+  UIScrollView-InfiniteScroll: 3ef456bcbe759c19f510a383cff96e6647c98c98
+  XCGLogger: 1943831ef907df55108b0b18657953f868de973b
+
+PODFILE CHECKSUM: 317e5234517bfd8c77ba3d727522649a32ab0cbf
+
+COCOAPODS: 1.7.5
